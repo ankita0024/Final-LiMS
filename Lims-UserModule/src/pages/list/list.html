@@ -1,0 +1,74 @@
+<!--
+  Generated template for the List page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <ion-toolbar >
+        <ion-title>
+            <ion-icon name="home" (click)="home()"></ion-icon> Kalinga Library
+        </ion-title>
+    </ion-toolbar>
+    <ion-navbar color="secondary">
+        <ion-title class="title">
+            List Of Books
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+<ion-card class="detailViewPage"  >
+	<ion-row class="bookDiv">
+		<ion-col width-33>
+			<img class="img-thumbnail bookImg" src="./assets/images/housegirl1.jpg" alt="book Image">
+		</ion-col>
+		<ion-col width-67 class="rightAlign">
+			
+        <span class="bookTitle"><b><i>TITLE OF BOOK :</i></b> HOUSE GIRL</span><br>
+        <br>
+        <br>
+        <span class="bookAuthor"><b><i>AUTHOR : </i></b> Prem Das<br></span>
+        <br><br>
+        <span class="bookISBN"><b><i>ISBN : </i></b> 1234567880<br></span>
+		
+				<!--<rating [ngModel]="book.avgRating" readOnly="true" ></rating>
+				<span class="bookRenewDetails">Available: <span class="bookRenewTime">{{book.available}}</span></span>-->
+			
+		</ion-col>
+	</ion-row>
+
+	<!--<ion-row>
+		<ion-col>
+			<button ion-button round ion-button color="danger" (click)="requestBook()" [disabled]=isDisabled>Request</button>
+		</ion-col>
+    </ion-row>
+
+  <ion-content class="bookViewDetails detailViewshadowDiv">
+        <ion-row class="bookViewDescription">
+            <span>About the book</span>
+        </ion-row >
+        <span>{{book.description}}</span>
+    </ion-content>-->
+
+</ion-card>
+
+
+<ion-card class="detailViewPage"  >
+	<ion-row class="bookDiv">
+		<ion-col width-33>
+			<img class="img-thumbnail bookImg" src="./assets/images/stephen king.jpg" alt="book Image">
+		</ion-col>
+		<ion-col width-67 class="rightAlign">
+			
+        <span class="bookTitle"><b><i>TITLE OF BOOK :</i></b> STEPHEN KING</span><br>
+        <br>
+        <br>
+        <span class="bookAuthor"><b><i>AUTHOR : </i></b> Prem Das<br></span>
+        <br><br>
+        <span class="bookISBN"><b><i>ISBN : </i></b> 1234567880<br></span>
+        </ion-col>
+	</ion-row>
+</ion-card>
+</ion-content>
